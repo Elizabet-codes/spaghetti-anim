@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Metal Mania", cursive;
+  background: rgb(30, 30, 70);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  position: relative;
+}
+.spaghetti {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 3px;
+
+  background: rgb(250, 250, 250);
+}
+.wrap p {
+  width: 1px;
+}
+
+.strand {
+  width: 2px;
+  background: yellow;
+  height: 260px;
+  margin: 1px;
+  border-radius: 2px;
+}
+
+.spag-one {
+  animation: moveup 1.1s ease infinite alternate;
+}
+.spag-two {
+  animation: moveup 1.2s ease infinite alternate;
+}
+.spag-three {
+  animation: moveup 1.2s ease infinite alternate;
+}
+.spag-four {
+  animation: moveup 1.2s ease infinite alternate;
+}
+
+.spag-five {
+  animation: moveup 1.3s ease infinite alternate;
+}
+
+.spag-six {
+  animation: moveup 1.3s ease infinite alternate;
+}
+
+.spag-seven {
+  animation: moveup 1.3s ease infinite alternate;
+}
+
+.spag-six {
+  animation: moveup 1.3s ease infinite alternate;
+}
+
+.spag-seven {
+  animation: moveup 1.3s ease infinite alternate;
+}
+
+.spag-eight {
+  animation: moveup 1.2s ease infinite alternate;
+}
+
+.spag-nine {
+  animation: moveup 1.1s ease infinite alternate;
+}
+.spag-ten {
+  animation: moveup 1.1s ease infinite alternate;
+}
+
+.spag-eleven {
+  animation: moveup 1.1s ease infinite alternate;
+}
+
+.spag-twelve {
+  animation: moveup 1.1s ease infinite alternate;
+}
+
+.spag-thirteen {
+  animation: moveup 1.1s ease infinite alternate;
+}
+.spag-fourteen {
+  animation: moveup 1.2s ease infinite alternate;
+}
+.spag-fifteen {
+  animation: moveup 1.4s ease infinite alternate;
+}
+.spag-sixteen {
+  animation: moveup 1.4s ease infinite alternate;
+}
+.spag-seventeen {
+  animation: moveup 1.4s ease infinite alternate;
+}
+
+.spag-eighteen {
+  animation: moveup 1.1s ease infinite alternate;
+}
+
+.footer {
+  color: white;
+}
+
+@keyframes moveup {
+  from {
+    transform: translate(0px);
+  }
+  to {
+    transform: translate(1px, -44px);
+  }
+}
